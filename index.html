@@ -9,20 +9,11 @@
 </div>
 <hr>
 <head>
-    <title>ExcelValue</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script>
-      $(document).ready(function() {
-        $.ajax({
-          url: 'structure/excel_reader.php',
-          type: 'GET',
-          success: function(data) {
-            $('#cellValue').text(data);
-          }
-        });
-      });
-    </script>
-  </head>
-  <body>
-    <h1>Calendar: <span id="cellValue"></span></h1>
-  </body>
+  <title>CSV Checker</title>
+</head>
+<body>
+  <script src="structure/csv_reader.js"></script>
+</body>
+
+<div class="calendar" id="calendar">
+</div>
