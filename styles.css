@@ -1,18 +1,17 @@
 /*Background Image*/
 body {
     background-color: #272727;
-    background-image: url("images/Background\ continue.png");;
     background-size: 100%;
 }
 
 /*FONTING*/
-@font-face { font-family: Formula1-Regular; src: url('fonts/Formula1-Regular-1.ttf'); } 
-		h1 {
-		   font-family: Formula1-Regular
+@font-face { font-family: Unbounded-Regular; src: url('fonts/Unbounded-Regular.ttf'); } 
+		p {
+		   font-family: Unbounded-Regular
 		}
-		@font-face { font-family: Formula1-Black; src: url('fonts/Formula1-Black.ttf'); } 
+		@font-face { font-family: Unbounded-Extrabold; src: url('fonts/Unbounded-ExtraBold.ttf'); } 
 		h1 {
-		   font-family: Formula1-Black
+		   font-family: Unbounded-Extrabold
 		}
 		@font-face { font-family: Formula1-Wide; src: url('fonts/Formula1-Wide.ttf'); } 
 		b {
@@ -21,9 +20,10 @@ body {
 
 /* TITLE BOX */
 .title {
-    font-family: Formula1-Black;
+	font-family: Unbounded-Extrabold;
     text-align: center;
-    color: #FFFFFF;
+	font-size: 25px;
+    color: #a8ff00;
 }
 hr{
     color:#808080;
