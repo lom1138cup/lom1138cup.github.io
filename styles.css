@@ -1,0 +1,30 @@
+/*Background Image*/
+body {
+    background-color: #272727;
+    background-image: url("images/Background\ continue.png");;
+    background-size: 100%;
+}
+
+/*FONTING*/
+@font-face { font-family: Formula1-Regular; src: url('fonts/Formula1-Regular-1.ttf'); } 
+		h1 {
+		   font-family: Formula1-Regular
+		}
+		@font-face { font-family: Formula1-Black; src: url('fonts/Formula1-Black.ttf'); } 
+		h1 {
+		   font-family: Formula1-Black
+		}
+		@font-face { font-family: Formula1-Wide; src: url('fonts/Formula1-Wide.ttf'); } 
+		b {
+		   font-family: Formula1-Wide
+		}
+
+/* TITLE BOX */
+.title {
+    font-family: Formula1-Black;
+    text-align: center;
+    color: #FFFFFF;
+}
+hr{
+    color:#808080;
+}
