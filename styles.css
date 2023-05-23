@@ -15,9 +15,9 @@ body {
 		h1 {
 		   font-family: Unbounded-Extrabold
 		}
-		@font-face { font-family: Formula1-Wide; src: url('fonts/Formula1-Wide.ttf'); } 
+		@font-face { font-family: Unbounded-SemiBold; src: url('fonts/Unbounded-SemiBold.ttf'); } 
 		b {
-		   font-family: Formula1-Wide
+		   font-family: Unbounded-SemiBold
 		}
 
 /* TITLE BOX */
@@ -51,4 +51,14 @@ hr{
 	background-color: #a8ff00;
 	color:#272727;
 	border: 2px solid #282828;
+}
+.calendar {
+	font-family: Unbounded-SemiBold;
+	color:#a8ff00;
+	font-size: 30px;
+	overflow-x: auto;
+	white-space: nowrap;
+}
+.calendar img {
+	padding: 10px;
 }
