@@ -1,3 +1,5 @@
+
+
 /*Background Image*/
 body {
 	background-image: url('images/background-title.png');
@@ -58,7 +60,12 @@ hr{
 	font-size: 30px;
 	overflow-x: auto;
 	white-space: nowrap;
+	transform: scale(1);
 }
 .calendar img {
 	padding: 10px;
+}
+img:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
 }
