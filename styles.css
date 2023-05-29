@@ -1,13 +1,5 @@
 
 
-/*Background Image*/
-body {
-	background-image: url('images/background-title.png');
-    background-color: #272727;
-    background-size: 100%;
-	background-repeat: no-repeat;
-}
-
 /*FONTING*/
 @font-face { font-family: Unbounded-Regular; src: url('fonts/Unbounded-Regular.ttf'); } 
 		p {
@@ -26,14 +18,20 @@ body {
 .title {
 	font-family: Unbounded-Extrabold;
 	text-align:center;
-	font-size: 25px;
+	font-size: 21px;
     color: #a8ff00;
+}
+.title:hover {
+	color:#FFFFFF;
+	scale: 1.1;
+	transition:0.5s;
 }
 hr{
     color:#a8ff00;
 }
 .regular {
 	font-family: Unbounded-Regular;
+	text-align: center;
 	color: #FFFFFF
 }
 .discord_join {
