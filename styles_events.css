@@ -55,7 +55,10 @@ hr{
 	white-space: nowrap;
 	transform: scale(1);
 }
-.calendar img:hover {
-	scale: 1.1;
+.calendar img {
+	padding: 10px;
+}
+img:hover {
+	transform: scale(1.05);
 	transition: 0.3s;
 }
